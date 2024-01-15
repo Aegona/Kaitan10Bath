@@ -375,16 +375,16 @@ function CheckQuest()
      script.Parent.MouseButton1Click:Connect(function()
          if st == false then
              _G.Farm = true
-                         _G.FastAttack = true
-                         _G.BringMob = true
+                         --_G.FastAttack = true
+                         --_G.BringMob = true
              game.Players.LocalPlayer.Character:WaitForChild("Humanoid").WalkSpeed = 200
              script.Parent.BackgroundColor3 = Color3.fromHSV(0.353, 0.924178, 0.827451)
              st = true
          elseif st == true then
              game.Players.LocalPlayer.Character:WaitForChild("Humanoid").WalkSpeed = 16
              _G.Farm = false
-                         _G.FastAttack = false
-                         _G.BringMob = false
+                         --_G.FastAttack = false
+                         --_G.BringMob = false
              script.Parent.BackgroundColor3 = Color3.fromHSV(0, 1, 1)
              st = false
          end
